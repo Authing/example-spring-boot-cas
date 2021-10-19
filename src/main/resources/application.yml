@@ -1,0 +1,9 @@
+server:
+  port: 9999
+
+cas:
+  server-url-prefix: https://cjtjls-demo.authing.cn/cas-idp/61319680ea8b30c9ca9ca071
+  server-login-url: https://cjtjls-demo.authing.cn/cas-idp/61319680ea8b30c9ca9ca071/login
+  client-host-url: http://localhost:9999/
+  validation-url-patterns:
+    - /**
